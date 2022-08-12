@@ -11,7 +11,7 @@ app.get("/catalogDetail", (req, res, next) => {
   console.log("Catalog Detail Version 1 Get Request Successful");
   res.json({
              "version":"5",
-             "vendors":[ "ABC.com", "XYZ.com", "PQR.com", "Norway.com", "Spain.com", "Switzerland.com"]
+             "vendors":[ "ABC.com", "XYZ.com", "PQR.com", "Norway.com", "Spain.com", "Switzerland.com", "Test"]
               } )
 });
 
